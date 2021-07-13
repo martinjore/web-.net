@@ -1,0 +1,194 @@
+body{
+    background-image:url(imagenes/fondo2.jpg);
+    width: 50%;
+}
+div {
+    display: inline;
+    margin-left: 10px;
+}
+#contenedor1{
+    width: 1000px;
+    height: 156px;
+}
+header{
+	width:1000px;
+	height:156px;
+}
+.nombre{
+    width:300px;
+	height:156px;
+    font-size: 45px;
+   /*background-color: white;*/
+    text-align:justify;
+    color:blanchedalmond;
+    width:300px ;
+}
+#menu{
+    float:right;
+}
+#menu ul.botonera li a{
+    
+	widows: 700px;
+	height:156px;
+	line-height:50px;
+	
+	
+	display:inline-block;
+	color:#fff;
+    font-family:'Inknut Antiqua',serif;
+    font-size: 30px;
+	text-decoration:none;
+	text-align:center;
+	
+	}
+.botonera > li{
+	position:relative;
+	display:inline-block;
+}
+.botonera > li a{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	color:#000;
+    font-family:arial, verdana, tahoma;
+    text-decoration:none;
+}
+#menu ul.botonera li a:hover{
+	
+	display:block;
+	color:#fff;
+	font-family:arial,verdana,tahoma;
+}
+#espacio{
+    height: 70px;
+}
+
+#Contenedor2{
+    width: 1000px;
+    height: 500px;
+
+    margin-left:auto;
+    margin-right:auto;
+ 
+    
+}
+#desc{
+    width: 500px;
+    height: 250px;
+    float: left ;
+  
+}
+
+#descripcion{
+    text-align-last: inherit;
+    width: 500px;
+    height: 250px;
+  
+    float: left ;
+    
+}
+h1{
+    text-align: center;
+    font-size: larger;
+    font-family:arial,verdana,tahoma;
+    color:whitesmoke;
+}
+#desc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: end;
+    color:whitesmoke;
+}
+#img{
+
+    width: 500px;
+    height: 250px;
+
+    float: right;;
+}
+.espacio1{
+    display: inline;
+    margin-left: 10px;
+    
+}
+#imagen{
+
+  
+   
+    background-color: #fff;
+    background-image: url(imagenes/yo.jpg);
+  /* cambia estos dos valores para definir el tamaño de tu círculo */
+  height: 280px;
+  width: 280px;
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+ 
+}
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+
+}
+.icon{
+    color:white;
+    text-decoration:none ;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+
+}
+.icon-facebook{
+    background: #0939b1;
+}
+.icon-instagram{
+    background: #3F60A5;
+}
+.icon-linkedin{
+    background: #a874ec;
+}
+.icon-whatsapp{
+    background: #31be31;
+}
+.icon-github{
+    background:#2c2b2c ;
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+p{
+    font-family: Century Gothic, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	font-weight: bold; 
+}
+footer {
+	width: 1000px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+   
+	clear: left;
+	padding-left: 13px;
+}
+#footer1 p {
+	font-family: Century Gothic, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	font-weight: bold; 
+}
+#footer1 p a {
+	color: #FFFFFF; 
+}

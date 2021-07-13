@@ -1,0 +1,158 @@
+body{
+    background-image:url(imagenes/fondo2.jpg);
+    width: 50%;
+}
+div {
+    display: inline;
+    margin-left: 10px;
+}
+#contenedor1{
+    width: 1000px;
+    height: 156px;
+}
+header{
+	width:1000px;
+	height:156px;
+}
+.nombre{
+    width:300px;
+	height:156px;
+    font-size: 45px;
+   /*background-color: white;*/
+    text-align:justify;
+    color:blanchedalmond;
+    width:300px ;
+}
+#menu{
+    float:right;
+}
+#menu ul.botonera li a{
+    
+	widows: 700px;
+	height:156px;
+	line-height:50px;
+	
+	
+	display:inline-block;
+	color:#fff;
+    font-family:'Inknut Antiqua',serif;
+    font-size: 30px;
+	text-decoration:none;
+	text-align:center;
+	
+	}
+.botonera > li{
+	position:relative;
+	display:inline-block;
+}
+.botonera > li a{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	color:#000;
+    font-family:arial, verdana, tahoma;
+    text-decoration:none;
+}
+#menu ul.botonera li a:hover{
+	
+	display:block;
+	color:#fff;
+	font-family:arial,verdana,tahoma;
+}
+#contenedor{
+    width: 1000px;
+    height: 900px;
+    background-color: #04102e;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px 7px 5px #e6dbe6;
+}
+#m1{
+    text-align: center;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: antiquewhite;
+
+
+}
+#m{
+    text-align: center;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: antiquewhite;
+
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: antiquewhite;
+
+}
+h2{
+    color: chocolate;
+}
+p{
+    color:antiquewhite;
+}
+li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px ;
+    color:antiquewhite;
+
+}
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+
+}
+.icon{
+    color:white;
+    text-decoration:none ;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+
+}
+.icon-facebook{
+    background:#0939b1;
+}
+.icon-instagram{
+    background: #3F60A5;
+}
+.icon-linkedin{
+    background: #a874ec;
+}
+.icon-whatsapp{
+    background: #31be31;
+}
+.icon-github{
+    background:#2c2b2c  ;
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+footer {
+	width: 1000px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+   
+	clear: left;
+	padding-left: 13px;
+}
+#footer1 p {
+	font-family: Century Gothic, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	font-weight: bold; 
+}
+#footer1 p a {
+	color: #FFFFFF; 
+}
